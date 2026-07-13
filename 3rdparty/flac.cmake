@@ -120,7 +120,6 @@ target_sources(aaruformat PRIVATE
         3rdparty/flac/src/libFLAC/lpc_intrin_sse2.c
         3rdparty/flac/src/libFLAC/lpc_intrin_sse41.c
         3rdparty/flac/src/libFLAC/lpc_intrin_avx2.c
-        3rdparty/flac/src/libFLAC/lpc_intrin_vsx.c
         3rdparty/flac/src/libFLAC/md5.c
         3rdparty/flac/src/libFLAC/memory.c
         3rdparty/flac/src/libFLAC/metadata_iterators.c
