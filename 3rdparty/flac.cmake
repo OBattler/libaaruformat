@@ -131,8 +131,6 @@ target_sources(aaruformat PRIVATE
         3rdparty/flac/src/libFLAC/stream_encoder_intrin_avx2.c
         3rdparty/flac/src/libFLAC/stream_encoder_framing.c
         3rdparty/flac/src/libFLAC/window.c
-        $<$<BOOL:${WIN32}>:3rdparty/flac/include/share/windows_unicode_filenames.h>
-        $<$<BOOL:${WIN32}>:3rdparty/flac/src/libFLAC/windows_unicode_filenames.c>
         $<$<BOOL:${OGG_FOUND}>:ogg_decoder_aspect.c>
         $<$<BOOL:${OGG_FOUND}>:ogg_encoder_aspect.c>
         $<$<BOOL:${OGG_FOUND}>:ogg_helper.c>
