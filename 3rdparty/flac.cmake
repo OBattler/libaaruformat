@@ -114,12 +114,16 @@ target_sources(aaruformat PRIVATE
         3rdparty/flac/src/libFLAC/fixed.c
         3rdparty/flac/src/libFLAC/fixed_intrin_sse2.c
         3rdparty/flac/src/libFLAC/fixed_intrin_ssse3.c
+        3rdparty/flac/src/libFLAC/fixed_intrin_sse42.c
+        3rdparty/flac/src/libFLAC/fixed_intrin_avx2.c
         3rdparty/flac/src/libFLAC/float.c
         3rdparty/flac/src/libFLAC/format.c
         3rdparty/flac/src/libFLAC/lpc.c
+        3rdparty/flac/src/libFLAC/lpc_intrin_neon.c
         3rdparty/flac/src/libFLAC/lpc_intrin_sse2.c
         3rdparty/flac/src/libFLAC/lpc_intrin_sse41.c
         3rdparty/flac/src/libFLAC/lpc_intrin_avx2.c
+        3rdparty/flac/src/libFLAC/lpc_intrin_fma.c
         3rdparty/flac/src/libFLAC/md5.c
         3rdparty/flac/src/libFLAC/memory.c
         3rdparty/flac/src/libFLAC/metadata_iterators.c
