@@ -117,7 +117,6 @@ target_sources(aaruformat PRIVATE
         3rdparty/flac/src/libFLAC/float.c
         3rdparty/flac/src/libFLAC/format.c
         3rdparty/flac/src/libFLAC/lpc.c
-        3rdparty/flac/src/libFLAC/lpc_intrin_sse.c
         3rdparty/flac/src/libFLAC/lpc_intrin_sse2.c
         3rdparty/flac/src/libFLAC/lpc_intrin_sse41.c
         3rdparty/flac/src/libFLAC/lpc_intrin_avx2.c
